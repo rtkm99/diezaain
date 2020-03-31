@@ -1,0 +1,118 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-link {
+    color: white;
+    font-family: "Roboto Condensed";
+}
+
+.nav-link:hover {
+    color: #ff7100;
+}
+
+.navbar-fixed-top.scrolled {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    transition: background-color 200ms linear;
+}
+
+.title {
+    text-align: center;
+    margin: 50px;
+    font-family: Demonized;
+    color: #f6f6f6;
+}
+
+.page_end {
+    width: 100%;
+    height: 100px;
+}
+
+/*header*/
+
+.section-1 {
+    height: 100vh;
+    background-image: url("../img/event.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.overlay {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.overlaytext {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 10%;
+    margin-top: 30%;
+    margin-bottom: 60%;
+    text-align: center;
+    color: white;
+    font-family: Demonized;
+    mix-blend-mode: screen;
+}
+
+/*functie*/
+
+.functie {
+    background-image: linear-gradient(to right, #9C27B0, #673AB7);
+}
+
+.table {
+    border: white 1px solid;
+}
+
+/*accounts*/
+
+.accounts {
+    background-image: linear-gradient(to right, #9C27B0, #673AB7);
+}
+
+/*evenementen*/
+
+.evenementen {
+    background-image: linear-gradient(to right, #9C27B0, #673AB7);
+}
+
+/*contact*/
+
+.contact {
+    background-color: #f6f6f6;
+}
+
+/*footer*/
+
+.copyright {
+    text-align: center;
+}
+
+/*verwijderd*/
+
+.bericht_verwijderd {
+    margin-top: 100px;
+    padding: 50px;
+    font-family: Roboto;
+    font-size: 2rem;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    box-shadow: 0px 10px 31px 0px rgba(0,0,0,0.75);
+}
+
+.home_btn {
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    font-family: Roboto;
+    text-align: center;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    box-shadow: 0px 10px 31px 0px rgba(0,0,0,0.75);
+}
+
